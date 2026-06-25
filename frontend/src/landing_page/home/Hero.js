@@ -1,7 +1,23 @@
 import React from "react";
 
 function Hero() {
-  return <h1>Hero</h1>;
+  return (
+    <div className="container p-5 mb-5">
+      <div className="row text-center">
+        <img src="media/images/homeHero.png" alt="HeroImage" className="mb-5" />
+        <h1 className="mt-5">Invest in everything</h1>
+        <p>
+          Online platfrom to invest in stocks , derivatives and mutual funds.
+        </p>
+        <button
+          className="p-2 btn btn-primary fs-5 mb-5 "
+          style={{ width: "20%", margin: "0 auto" }}
+        >
+          Sign in
+        </button>
+      </div>
+    </div>
+  );
 }
 
 export default Hero;
