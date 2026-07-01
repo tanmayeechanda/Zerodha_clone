@@ -5,7 +5,7 @@ function Pricing() {
     <div className="container m-5">
       <div className="row ">
         <div className="col-4">
-          <h1 className="mb-3 ">Unbreatable Pricing</h1>
+          <h1 className="mb-3 fs-2 ">Unbreatable Pricing</h1>
           <p>
             we pioneered the concept of discount broking and price transparency
             in India.Flat tees and no hidden charges.
